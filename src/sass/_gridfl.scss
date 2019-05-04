@@ -1,0 +1,21 @@
+.row-fl{
+    display: block;
+    clear: both;
+}
+[class*='cols']{
+    float: left;
+}
+@each $p in(
+    sm 576px,
+    md 768px,
+    lg 992px,
+    xl 1200px
+){
+    @for $i from 1 through 12{
+        @media (min-width: #{nth($p,2)}){
+            .cols-#{nth($p,1)}-#{$i}{
+                width: 100%/12*$i;
+            }
+        }
+    }
+}

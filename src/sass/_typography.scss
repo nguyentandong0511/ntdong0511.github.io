@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Montserrat|Open+Sans|Open+Sans+Condensed:300|Oswald|Roboto|Roboto+Condensed|Source+Sans+Pro');
+
+body,td,th,input,button{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+@each $vw in(
+    576px 1.2,
+    768px 1.4,
+    991px 1.6
+){
+    @media screen and (min-width: #{nth($vw,1)}){
+        body,td,th,input,button{
+            font-size: 10px*nth($vw,2);
+        }
+    }
+}

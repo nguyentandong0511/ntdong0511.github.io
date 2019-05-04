@@ -1,0 +1,438 @@
+@media (max-width: 576px){
+    .circle-hv{
+        display: none;
+    }
+    //end slide
+
+    .nav{
+        position: relative;
+        .menunav{
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            left: 30px;
+            z-index: 5;
+            button{
+                position: relative;
+                padding: 2px 7px 7px 7px;
+                border: 1px solid white;
+                display: block;
+                left: 0;
+                &:focus{
+                    outline: none;
+                }
+                .icon-res{
+                    padding-bottom: 10px;
+                    font-size: 11px;
+                    background-image: url(https://cdn.shopify.com/s/files/1/3012/8606/t/3/assets/icon_setting.png?11995613681172682809);
+                }
+            }
+            ul{
+                background-color: #fff;
+                padding: 10px;
+                li{
+                    width: 100%;
+                
+                    margin: 0;
+                    background-color: #fff;
+                    border-bottom: 1px solid #f2f2f2;
+                    position: relative;
+                    &::before{
+                        display: none;
+                    }
+                    a{
+                        padding: 3px 100px 3px 10px;
+                        i{
+                            position: absolute;
+                            right: 0;
+                        }
+                        &:hover{
+                            color: #e51515 !important;
+                            transition: all .3s ease;
+                        }
+                    }
+                }
+                .dropdown-content{
+                    visibility: hidden;
+                    position: absolute;
+                }
+            }
+        }
+        .dropdown-menu-3{
+            width: auto;
+        }
+    }
+    // end nav
+
+
+
+
+    .container-fluid{
+        .title{
+            h1{
+                font-size: 92px;
+            }
+        }
+        .img-text-content{
+            .text-content{
+                padding: 0;
+            }
+        }
+        .img-hv-3{
+            margin: 0;
+        }
+    }
+
+
+
+    .container{
+        width: 100%;
+        .img-hd{
+            .hd-text{
+                width: 100%;
+                h2{
+                    width: 100%;
+                    margin: auto;
+                    .ic-text{
+                        border-bottom: none;
+                        border-top: none;
+                        &::before{
+                        display: none;
+                        }
+                        &::after{
+                        display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .box-ft{
+            width: 100%;
+            padding: 5em 0;
+            .form-bt{
+                width: 100%;
+                padding: 0;
+                button{
+                    position: absolute;
+                    top: -2px;
+                    right: 0;
+                }
+            }
+        }
+        .menu-tabs{
+            width: 100%;
+            li{
+                margin: auto;
+            }
+        }
+    }
+
+    // footer
+    .footer{
+        .foot-top{
+            .bd-l{
+                border-left: none;
+            }
+        }
+        .foot-bot{
+            .copy-right{
+                text-align: center;
+            }
+            .list-icon-ft{
+                li{
+                    &:first-child{
+                        margin-left: auto;
+                    }
+                    &:last-child{
+                        margin-right: auto;
+                    }
+                }
+            }
+            .logo-ft-b{
+                text-align: center;
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+
+
+    .nav{
+        position: relative;
+        .menunav{
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            left: 30px;
+            z-index: 5;
+            button{
+                position: relative;
+                padding: 2px 7px 7px 7px;
+                border: 1px solid white;
+                display: block;
+                left: 0;
+                &:focus{
+                    outline: none;
+                }
+                .icon-res{
+                    padding-bottom: 10px;
+                    font-size: 11px;
+                    background-image: url(https://cdn.shopify.com/s/files/1/3012/8606/t/3/assets/icon_setting.png?11995613681172682809);
+                }
+            }
+            ul{
+                background-color: #fff;
+                li{
+                    width: 100%;
+                    padding: 10px;
+                    margin: 0;
+                    background-color: #fff;
+                    border-bottom: 1px solid #f2f2f2;
+                    position: relative;
+                    &::before{
+                        display: none;
+                    }
+                    a{
+                        color: black !important;
+                        padding: 3px 100px 3px 10px;
+                        i{
+                            position: absolute;
+                            right: 0;
+                        }
+                        &:hover{
+                            color: #e51515 !important;
+                            transition: all .3s ease;
+                        }
+                    }
+                }
+                .dropdown-content{
+                    visibility: hidden;
+                    position: absolute;
+                }
+            }
+        }
+    }
+    // end nav
+.container-fluid{
+    .img-text-content{
+        .text-content{
+            padding-right: 0;
+        }
+    }
+}
+    
+    .container-fluid{
+        .img-slide-2{
+            .slide-2-img{
+                .text-box-img{
+                    &::before{
+                        right: 101%;
+                    }
+                    &::after{
+                        left: 101%;
+                    }
+                }
+            }
+        }
+    }
+
+    .container{
+        width: 90%;
+        .img-hd{
+            .hd-text{
+                h2{
+                    width: 100%;
+                }
+            }
+        }
+        .box-ft{
+            width: 100%;
+            padding: 5em 0;
+            .form-bt{
+                width: 100%;
+                padding: 0;
+            }
+        }
+        .menu-tabs{
+            width: 100%;
+            li{
+                margin: auto;
+            }
+        }
+    }
+
+    // footer
+    .footer{
+        .foot-bot{
+            .copy-right{
+                text-align: center;
+            }
+            .list-icon-ft{
+                li{
+                    &:first-child{
+                        margin-left: auto;
+                    }
+                    &:last-child{
+                        margin-right: auto;
+                    }
+
+                }
+            }
+            .logo-ft-b{
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .nav{
+        position: relative;
+        .menunav{
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            left: 30px;
+            z-index: 5;
+            button{
+                position: relative;
+                padding: 2px 7px 7px 7px;
+                border: 1px solid white;
+                display: block;
+                left: 0;
+                &:focus{
+                    outline: none;
+                }
+                .icon-res{
+                    padding-bottom: 10px;
+                    font-size: 11px;
+                    background-image: url(https://cdn.shopify.com/s/files/1/3012/8606/t/3/assets/icon_setting.png?11995613681172682809);
+                }
+            }
+            ul{
+                background-color: #fff;
+                li{
+                    padding: 10px;
+                    margin: 0;
+                    width: 100%;
+                    background-color: #fff;
+                    border-bottom: 1px solid #f2f2f2;
+                    position: relative;
+                    &::before{
+                        display: none;
+                    }
+                    a{
+                        color: black !important;
+                        padding: 3px 100px 3px 10px;
+                        i{
+                            position: absolute;
+                            right: 0;
+                        }
+                        &:hover{
+                            color: #e51515 !important;
+                            transition: all .3s ease;
+                        }
+                    }
+                }
+                .dropdown-content{
+                    visibility: hidden;
+                    position: absolute;
+                }
+            }
+        }
+    }
+
+    
+
+    .container{
+        width: 90%;
+        .img-hd{
+            .hd-text{
+                h2{
+                    width: 100%;
+                }
+            }
+        }
+        .box-ft{
+            width: 100%;
+            padding: 5em 0;
+            .form-bt{
+                width: 100%;
+                padding: 0;
+            }
+        }
+        .menu-tabs{
+            width: 100%;
+            li{
+                margin: auto;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    .nav{
+        position: relative;
+        .menunav{
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            left: 30px;
+            z-index: 5;
+            button{
+                position: relative;
+                padding: 2px 7px 7px 7px;
+                border: 1px solid white;
+                display: block;
+                left: 0;
+                &:focus{
+                    outline: none;
+                }
+                .icon-res{
+                    padding-bottom: 10px;
+                    font-size: 11px;
+                    background-image: url(https://cdn.shopify.com/s/files/1/3012/8606/t/3/assets/icon_setting.png?11995613681172682809);
+                }
+            }
+            ul{
+                background-color: #fff;
+                li{
+                    padding: 10px;
+                    margin: 0;
+                    width: 100%;
+                    background-color: #fff;
+                    border-bottom: 1px solid #f2f2f2;
+                    position: relative;
+                    &::before{
+                        display: none;
+                    }
+                    a{
+                        color: black !important;
+                        padding: 3px 100px 3px 10px;
+                        i{
+                            position: absolute;
+                            right: 0;
+                        }
+                        &:hover{
+                            color: #e51515 !important;
+                            transition: all .3s ease;
+                        }
+                    }
+                }
+                .dropdown-content{
+                    visibility: hidden;
+                    position: absolute;
+                }
+            }
+        }
+    }
+    .container{
+        .menu-tabs{
+            width: 100%;
+            li{
+                margin: auto;
+            }
+        }
+    }
+}
